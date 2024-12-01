@@ -1,1 +1,231 @@
-/* You can add global styles to this file, and also import other style files */
+/* Updated CSS for Angular Landing Page with Company Colors (Maroon Red and Black) and Enhanced Interactivity and Design */
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Button Styles */
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.3s;
+    padding: 12px 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* Header Component */
+  .header {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #800000, #000);
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
+  
+  .header h1 {
+    font-size: 3.5em;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #f8f9fa;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    line-height: 1.8;
+    margin: 20px 0;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .header p:hover {
+    transform: translateY(-5px);
+    color: #ffffff;
+  }
+  
+  .btn-primary {
+    background-color: #800000;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.1em;
+  }
+  
+  .btn-primary:hover {
+    background-color: #600000;
+  }
+  
+  .btn-secondary {
+    background-color: #fff;
+    color: #800000;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border: 2px solid #800000;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Features Component */
+  .features {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .features h2 {
+    margin-bottom: 50px;
+    color: #800000;
+    font-size: 2.5em;
+  }
+  
+  .feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    max-width: 300px;
+    margin: 20px;
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .feature:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* How It Works Component */
+  .how-it-works {
+    padding: 80px 20px;
+    background-color: #f0f8ff;
+    text-align: center;
+  }
+  
+  .how-it-works h2 {
+    margin-bottom: 30px;
+    color: #800000;
+    font-size: 2.5em;
+  }
+  
+  .how-it-works ol {
+    font-size: 1.2em;
+    list-style-position: inside;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Testimonials Component */
+  .testimonials {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .testimonials h2 {
+    margin-bottom: 50px;
+    color: #800000;
+    font-size: 2.5em;
+  }
+  
+  .testimonial {
+    margin: 30px auto;
+    max-width: 600px;
+    border: 1px solid #800000;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Pricing Component */
+  .pricing {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .pricing h2 {
+    margin-bottom: 50px;
+    color: #800000;
+    font-size: 2.5em;
+  }
+  
+  .pricing-table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .plan {
+    max-width: 300px;
+    margin: 20px;
+    border: 1px solid #800000;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .plan:hover {
+    transform: translateY(-10px);
+  }
+  
+  .plan h3 {
+    color: #800000;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .plan button {
+    background-color: #800000;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    font-size: 1.1em;
+  }
+  
+  .plan button:hover {
+    background-color: #600000;
+  }
+  
+  /* Footer Component */
+  .footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1.1em;
+  }
+  
+  .footer a {
+    color: #800000;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .footer a:hover {
+    color: #fff;
+  } 
+  

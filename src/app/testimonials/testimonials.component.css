@@ -1,0 +1,11 @@
+/* src/app/testimonials/testimonials.component.css */
+.testimonials {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .testimonial {
+    margin: 20px auto;
+    max-width: 600px;
+}

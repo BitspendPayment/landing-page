@@ -1,0 +1,58 @@
+.footer {
+    text-align: center; /* Center align the footer content */
+    padding: 60px 20px; /* Add padding for spacing */
+    background: linear-gradient(135deg, #000, #333); /* Add a gradient background for a modern look */
+    color: #fff; /* Set the text color to white */
+    position: relative; /* Position relative for potential future elements */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 1.2em; /* Set font size for readability */
+    line-height: 1.6; /* Improve readability */
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #800000;
+    transform: scale(1.2);
+  }
+  
+  .footer a {
+    color: #800000; /* Set link color to maroon */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 15px; /* Add horizontal spacing between links */
+    transition: color 0.3s, transform 0.3s; /* Smooth color and transform transition on hover */
+  }
+  
+  .footer a:hover {
+    color: #fff; /* Change link color to white on hover */
+    transform: scale(1.1); /* Slightly enlarge link on hover for better interaction */
+  }
+  
+  .footer .social-icons {
+    margin-top: 20px; /* Add spacing above social icons */
+  }
+  
+  .footer .social-icons a {
+    margin: 0 10px; /* Add spacing between social icons */
+    color: #fff; /* Set color to white for social icons */
+    font-size: 1.5em; /* Increase the size for visibility */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .footer .social-icons a:hover {
+    color: #800000; /* Change color on hover */
+    transform: scale(1.2); /* Slightly enlarge icon on hover */
+  } 
+  
